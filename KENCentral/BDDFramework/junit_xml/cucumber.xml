@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="134.038047">
+<testcase classname="Contact Page Feature" name="Contact Page Operations" time="32.822888">
+<system-out><![CDATA[Given User is already on the Login Page.....................................passed
+When Title of the Login Page is #1 Free CRM software in the cloud for sales and service.passed
+Then user enters "shaikh92" and "Test@1234" for contact page................passed
+Then Click on the Login Button3.............................................passed
+Then User is on Home Page3..................................................passed
+Then User moves to New Contact Page.........................................passed
+Then User enters Contact Details "Asit" and "Nayak" and "Test Lead".........passed
+Then Close the Browser3.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Contact Page Feature" name="Contact Page Operations 2" time="33.307491">
+<system-out><![CDATA[Given User is already on the Login Page.....................................passed
+When Title of the Login Page is #1 Free CRM software in the cloud for sales and service.passed
+Then user enters "shaikh92" and "Test@1234" for contact page................passed
+Then Click on the Login Button3.............................................passed
+Then User is on Home Page3..................................................passed
+Then User moves to New Contact Page.........................................passed
+Then User enters Contact Details "Jyoti" and "Prava" and "Test Architect"...passed
+Then Close the Browser3.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Deals data creation" name="Create a new Deal Scenario" time="21.550162">
+<system-out><![CDATA[Given User is already at the Login Page.....................................passed
+When Titles of the Login Page is #1 Free CRM software in the cloud for sales and service.passed
+Then User enters New username and password for Deals page...................passed
+Then Click on the Login Button1.............................................passed
+Then User is on Home Page1..................................................passed
+Then User moves to New Deal Page............................................passed
+Then User enters Deal Details...............................................passed
+Then Close the Browser1.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dolna Test Feature" name="Login Scenario" time="28.525097">
+<system-out><![CDATA[Given User is already in the Login Page.....................................passed
+When Title's of the Login Page is #1 Free CRM software in the cloud for sales and service.passed
+Then user enters "shaikh92" and "Test@1234" for login page..................passed
+Then Click on the Login Button2.............................................passed
+Then User is on Home Page2..................................................passed
+Then Close the Browser2.....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Dolna Test Feature" name="Login Scenario 2" time="17.832409">
+<failure message="junit.framework.ComparisonFailure: expected:&lt;[CRMPRO]&gt; but was:&lt;[#1 Free CRM software in the cloud for sales and service]&gt;&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:100)&#13;&#10;&#9;at junit.framework.Assert.assertEquals(Assert.java:107)&#13;&#10;&#9;at stepDefinations.LoginStepDefination.user_in_HomePage(LoginStepDefination.java:55)&#13;&#10;&#9;at ✽.Then User is on Home Page2(login.feature:38)&#13;&#10;"><![CDATA[Given User is already in the Login Page.....................................passed
+When Title's of the Login Page is #1 Free CRM software in the cloud for sales and service.passed
+Then user enters "Gollie" and "Test%67" for login page......................passed
+Then Click on the Login Button2.............................................passed
+Then User is on Home Page2..................................................failed
+Then Close the Browser2.....................................................skipped
+
+StackTrace:
+junit.framework.ComparisonFailure: expected:<[CRMPRO]> but was:<[#1 Free CRM software in the cloud for sales and service]>
+	at junit.framework.Assert.assertEquals(Assert.java:100)
+	at junit.framework.Assert.assertEquals(Assert.java:107)
+	at stepDefinations.LoginStepDefination.user_in_HomePage(LoginStepDefination.java:55)
+	at ✽.Then User is on Home Page2(login.feature:38)
+]]></failure>
+</testcase>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="17.481991">
+<testcase classname="KENCentral Login Page" name="Test the Login Page Functionality" time="10.392862">
+<system-out><![CDATA[Given User is in the Login page.............................................passed
+When Title of the Login page is Login.......................................passed
+Then User enters the "santanu.j@kencloud.co.in" in the Email Address field..passed
+Then User enters the "Test@123" in the Password field.......................passed
+Then Click on the SignIn Button.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="KENCentral Login Page" name="Test the Login Page Functionality 2" time="7.089129">
+<system-out><![CDATA[Given User is in the Login page.............................................passed
+When Title of the Login page is Login.......................................passed
+Then User enters the "santanu.j@kencloud.co.in" in the Email Address field..passed
+Then User enters the "Test@1234" in the Password field......................passed
+Then Click on the SignIn Button.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
