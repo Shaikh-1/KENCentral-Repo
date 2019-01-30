@@ -159,14 +159,14 @@ formatter.match({
   "location": "LoginStepDefination.user_is_in_the_Login_page()"
 });
 formatter.result({
-  "duration": 10101069023,
+  "duration": 10329486264,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.title_of_the_Login_page_is_Login()"
 });
 formatter.result({
-  "duration": 14325277,
+  "duration": 18595868,
   "status": "passed"
 });
 formatter.match({
@@ -179,7 +179,7 @@ formatter.match({
   "location": "LoginStepDefination.enterUserIdField(String)"
 });
 formatter.result({
-  "duration": 133321641,
+  "duration": 149768959,
   "status": "passed"
 });
 formatter.match({
@@ -192,14 +192,14 @@ formatter.match({
   "location": "LoginStepDefination.userEntersPassword(String)"
 });
 formatter.result({
-  "duration": 77105261,
+  "duration": 115317051,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.userClicksSignInButton()"
 });
 formatter.result({
-  "duration": 67040632,
+  "duration": 52702253,
   "status": "passed"
 });
 formatter.scenario({
@@ -255,14 +255,14 @@ formatter.match({
   "location": "LoginStepDefination.user_is_in_the_Login_page()"
 });
 formatter.result({
-  "duration": 6837791960,
+  "duration": 6378465261,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.title_of_the_Login_page_is_Login()"
 });
 formatter.result({
-  "duration": 11283639,
+  "duration": 14498035,
   "status": "passed"
 });
 formatter.match({
@@ -275,7 +275,7 @@ formatter.match({
   "location": "LoginStepDefination.enterUserIdField(String)"
 });
 formatter.result({
-  "duration": 110093683,
+  "duration": 102911255,
   "status": "passed"
 });
 formatter.match({
@@ -288,14 +288,14 @@ formatter.match({
   "location": "LoginStepDefination.userEntersPassword(String)"
 });
 formatter.result({
-  "duration": 68012282,
+  "duration": 64952827,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginStepDefination.userClicksSignInButton()"
 });
 formatter.result({
-  "duration": 61947067,
+  "duration": 62951943,
   "status": "passed"
 });
 });
