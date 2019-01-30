@@ -16,7 +16,8 @@
 
   <dependencies>
     
-  <dependency>
+
+		<dependency>
 			<groupId>info.cukes</groupId>
 			<artifactId>cucumber-java</artifactId>
 			<version>1.2.5</version>
@@ -77,9 +78,9 @@
 			<version>1.2.5</version>
 			<scope>test</scope>
 		</dependency>
+
+  
+
   </dependencies>
-  <organization>
-  	<name>TestNew</name>
-  	<url>https://shaikh1.visualstudio.com/TestNew</url>
-  </organization>
+
 </project>
